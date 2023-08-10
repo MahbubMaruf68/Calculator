@@ -1,25 +1,36 @@
-.container {
+#container {
+  border: 1px solid black;
+  width: 90vw;
   margin: 5vh auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgb(197, 195, 195);
+  border-radius: 5px;
+}
+#display {
+  margin: 4vh 0;
 }
 #display input {
-  width: 59.3vw;
-  height: 8vh;
+  width: 80vw;
+  height: 13vh;
+  border-radius: 5px;
 }
-.container .allbtn {
+#container .allbtn {
   display: grid;
-  grid-template-columns: 15vw 15vw 15vw 15vw;
-
-  grid-auto-rows: 9vh 9vh 9vh 9vh;
+  grid-template-columns: 21vw 21vw 21vw 21vw;
+  grid-auto-rows: 13vh 13vh 13vh 13vh;
+  margin-bottom: 4vh;
 }
 .allbtn button {
+  border-radius: 50px;
+  box-shadow: 2px 2px 30px beige;
   font-size: 3vh;
+  margin: 1vh 1vw;
 }
 .allbtn button:hover {
-  background-color: rgb(67, 71, 71);
+  background-color: rgb(82, 17, 114);
   border: 0.5px solid black;
   outline: none;
   color: white;
